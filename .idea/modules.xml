@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thymeleaf-in-action.iml" filepath="$PROJECT_DIR$/thymeleaf-in-action.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thymeleaf-in-action_main.iml" filepath="$PROJECT_DIR$/.idea/modules/thymeleaf-in-action_main.iml" group="thymeleaf-in-action" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thymeleaf-in-action_test.iml" filepath="$PROJECT_DIR$/.idea/modules/thymeleaf-in-action_test.iml" group="thymeleaf-in-action" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa-in-action.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa-in-action_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa-in-action_main.iml" group="jpa-in-action" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa-in-action_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa-in-action_test.iml" group="jpa-in-action" />
     </modules>
   </component>
 </project>

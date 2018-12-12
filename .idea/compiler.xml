@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="jpa-in-action_main" target="1.8" />
+      <module name="jpa-in-action_test" target="1.8" />
       <module name="thymeleaf-in-action_main" target="1.8" />
       <module name="thymeleaf-in-action_test" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,12 +1,20 @@
 package com.smic.springboot.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  * @Description User实体对象
  * @Date 2018/12/11 21:48
  * @Param
  * @return
  **/
+@Entity
 public class User {
+    @Id //表示这是主键
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //数据库自增策略
     private Long id;
 
     private String name;
@@ -14,7 +22,7 @@ public class User {
     private String mail;
 
 
-    public User() {
+    protected User() {//无参构造函数，设置为protected是为防止直接使用
     }
 
 
@@ -26,11 +34,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", mail='" + mail + '\'' +
-                '}';
+        return String.format("User[id=%d, name=%s, mail=%s",id,name,mail);
     }
 
     public Long getId() {
